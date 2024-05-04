@@ -10,10 +10,10 @@ function setup() {
   colorMode(HSB);
 
   stroke(199, 80, 88);
-  strokeWeight(3);
+  strokeWeight(2);
   noFill();
 
-  densitySlider = createSlider(3, 42, 20, 1);
+  densitySlider = createSlider(3, 40, 20, 1);
 }
 
 function draw() {
