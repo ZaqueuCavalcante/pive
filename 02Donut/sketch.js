@@ -10,12 +10,17 @@ function setup() {
   strokeWeight(2);
   noFill();
 
-  densitySlider = createSlider(1, 102, 50, 1);
+  densitySlider = createSlider(1, 102, 90, 1);
+  densitySlider.size(600);
 }
 
 function draw() {
   background(230, 50, 15);
   orbitControl();
+
+  rotateX(45);
+  rotateY(25);
+  rotateZ(75);
 
   let density = densitySlider.value();
   for (let theta = 0; theta < 360; theta += 360 / density) {

@@ -63,10 +63,10 @@ function drawAxes() {
 }
 
 function polar(x, y) {
-  drawingContext.setLineDash([1, 8]);
+  drawingContext.setLineDash([4, 3]);
   line(x, 0, x, y);
   line(0, y, x, y);
-  drawingContext.setLineDash([4, 3]);
+  drawingContext.setLineDash([4, 4]);
   line(0, 0, x, y);
 
   drawPoints();
