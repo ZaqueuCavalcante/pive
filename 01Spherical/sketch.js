@@ -14,7 +14,7 @@ function setup() {
   noFill();
 
   densitySlider = createSlider(3, 40, 20, 1);
-  densitySlider.size(600);
+  densitySlider.size(600, 50);
 }
 
 function draw() {
