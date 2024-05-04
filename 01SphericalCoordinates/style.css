@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: #47585c;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
